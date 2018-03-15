@@ -19,4 +19,4 @@ class Flippy:
                 return(data["error_message"])
     def getAvailableMemes(self):
         results = requests.get(self.GetMemesApi)
-        return results.json())
+        return results.json()
